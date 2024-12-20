@@ -7,11 +7,14 @@ import Contact from './pages/Contact'
 import Login from './pages/Login'
 import PlaceOrders from './pages/PlaceOrders'
 import Orders from './pages/Orders'
+import Product from './pages/Product'
+import Navbar from './components/Navbar'
 
 function App() {
 
   return (
     <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
+      <Navbar/>
         <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/about' element={<About/>}/>
